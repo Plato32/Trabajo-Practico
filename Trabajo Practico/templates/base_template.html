@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- <script src="https://kit.fontawesome.com/9a03ddf42f.js" crossorigin="anonymous"></script> -->
+    <title>Restaurante “Sancho Panza”</title>
+    
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/estilos.css") }}">
+    <!-- <link rel="icon" type="image/jpg", filename="img/logo.png"> -->
+</head>
+<body>
+  <header>
+    <div class logo>
+      
+      <h1 class="nombre">Restaurante “Sancho Panza”<img src="static/img/logo.png" alt="Logo" height="60px" width="60px" ></h1>
+      
+    </div>
+    
+  </header>
+    
+    
+    {% block content %}{% endblock %}
+      <div class="myDiv">
+			<!-- <br><br><a href = "{{ url_for('inicio') }}" > Inicio </a><br><br> -->
+	  </div>	
+</body>
+</html>
+
+
