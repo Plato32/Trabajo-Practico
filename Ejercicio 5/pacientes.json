@@ -1,0 +1,55 @@
+{
+    "__class__": "ManejadorPacientes",
+    "pacientes": [
+        {
+            "__class__": "Paciente",
+            "__atributos__": {
+                "Apellido": "Kaylo",
+                "Nombre": "Alexandro",
+                "Telefono": "4649871",
+                "Altura": "177",
+                "Peso": "141"
+            }
+        },
+        {
+            "__class__": "Paciente",
+            "__atributos__": {
+                "Apellido": "Marnia",
+                "Nombre": "Nahuel",
+                "Telefono": "4166367",
+                "Altura": "173",
+                "Peso": "58"
+            }
+        },
+        {
+            "__class__": "Paciente",
+            "__atributos__": {
+                "Apellido": "Hannis",
+                "Nombre": "Maria",
+                "Telefono": "4637111",
+                "Altura": "165",
+                "Peso": "50"
+            }
+        },
+        {
+            "__class__": "Paciente",
+            "__atributos__": {
+                "Apellido": "Jere",
+                "Nombre": "Stover",
+                "Telefono": "4382086",
+                "Altura": "194",
+                "Peso": "121"
+            }
+        },
+        {
+            "__class__": "Paciente",
+            "__atributos__": {
+                "Apellido": "Alejandra",
+                "Nombre": "Tarrant",
+                "Telefono": "4300693",
+                "Altura": "163",
+                "Peso": "132"
+            }
+        }
+    ]
+}

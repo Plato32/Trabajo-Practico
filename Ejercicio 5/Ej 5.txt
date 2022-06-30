@@ -1,0 +1,12 @@
+Ejercicio 5
+Usar la narrativa del Ejercicio Nº 1
+
+Se han agregado nuevos requerimientos al sistema, y usted como programador, debe darles solución:
+
+La nutricionista cuenta con un archivo llamado “pacientes.json” donde tiene almacenados los datos de cada paciente que atiende. De cada paciente se almacena: nombre, apellido, teléfono, altura(cm) y peso(kg). 
+
+Se necesita que la aplicación muestre los datos almacenados de los pacientes junto con el IMC y la composición corporal resultantes. Además, se debe permitir modificar los datos del paciente, lo que implica que se actualice tanto el IMC como la composición corporal.
+
+Para facilitar el desarrollo, la nutricionista le proporciona la estructura que debería tener el sistema y le solicita que se encargue del diseño del mismo.
+
+Nota: todos los datos del paciente son obligatorios.
