@@ -1,0 +1,12 @@
+Ejercicio 6
+El Ministerio de Desarrollo Social de la Nación necesita desarrollar una aplicación para brindar información demográfica de cada una de las provincias del país. Además, se necesita que la aplicación se conecte a un servicio externo que permita obtener las condiciones meteorológicas en tiempo real en la capital de cada provincia. 
+
+De este modo, al seleccionar una de las provincias del país se deben mostrar los datos demográficos de la misma, junto con las condiciones meteorológicas actuales en esa provincia.
+
+Los datos a almacenar para cada provincia son: nombre, capital, cantidad de habitantes y cantidad de departamentos/partidos. Para facilitar la carga de estos datos se deberá proporcionar una pantalla adicional y se debe verificar que todos los datos sean completados. Además los datos de las provincias deben ser almacenados en un archivo llamado “datos.json”.
+
+El servicio externo que proveerá la información del estado del tiempo es OpenWeather, el cual requiere la obtención de una api key para el intercambio de información. Las solicitudes se harán a la siguiente URL: https://api.openweathermap.org/data/2.5/weather?q={nombre de ciudad}&units=metric&appid={su api key}. Los datos que se deben obtener son: temperatura (temp), sensación térmica (feels_like) y humedad (humidity).  
+
+Para facilitar el desarrollo, el Ministerio le proporciona la estructura que debería tener el sistema y le solicita que se encargue del diseño del mismo.
+
+Nota: Para obtener la API Key ingresar a https://home.openweathermap.org/users/sign_up y luego validar el mail con el que se registraron.

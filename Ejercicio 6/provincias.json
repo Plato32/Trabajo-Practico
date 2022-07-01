@@ -1,0 +1,41 @@
+{
+    "__class__": "ManejadorProvincias",
+    "provincias": [
+        {
+            "__class__": "Provincia",
+            "__atributos__": {
+                "Nombre": "Cordoba",
+                "Capital": "Cordoba",
+                "Cantidadhabitantes": "9120412",
+                "Departamentos": "30"
+            }
+        },
+        {
+            "__class__": "Provincia",
+            "__atributos__": {
+                "Nombre": "Mendoza",
+                "Capital": "Mendoza",
+                "Cantidadhabitantes": "1000000",
+                "Departamentos": "20"
+            }
+        },
+        {
+            "__class__": "Provincia",
+            "__atributos__": {
+                "Nombre": "San Juan",
+                "Capital": "San Juan",
+                "Cantidadhabitantes": "812712",
+                "Departamentos": "19"
+            }
+        },
+        {
+            "__class__": "Provincia",
+            "__atributos__": {
+                "Nombre": "Buenos Aires",
+                "Capital": "Buenos Aires",
+                "Cantidadhabitantes": "6464",
+                "Departamentos": "76766"
+            }
+        }
+    ]
+}
